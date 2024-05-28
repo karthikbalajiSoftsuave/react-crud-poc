@@ -1,0 +1,33 @@
+.layouts {
+    display: flex;
+    height: 100vh;
+
+    .body {
+        display: flex;
+        width: 100%;
+        min-height: 100vh;
+        max-width: auto;
+        flex-direction: column;
+
+        .header-box {
+            display: flex;
+            align-items: center;
+            // height: 60px;
+            padding: 30px 50px;
+
+            .header-label {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                color: #2F2F31;
+                margin: 0;
+            }
+        }
+
+        .content {
+            background-color: #FBFAF8;
+            height: calc(100vh - 103px);
+            overflow: auto;
+        }
+    }
+}

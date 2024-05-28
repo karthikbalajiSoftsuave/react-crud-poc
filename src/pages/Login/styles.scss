@@ -1,0 +1,86 @@
+.login {
+    display: grid;
+    background-color: #fff8f3;
+
+    .left-side {
+        height: 100vh;
+        padding: 50px;
+        background-image: linear-gradient(45deg, #fb6c00, #fb6c00);
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position: 100% 0;
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        .mainSec {
+            display: grid;
+            grid-template-columns: 1fr 750px;
+            height: 100%;
+            padding: 60px 0;
+            .leftImg {
+                padding: 0 40px 20px 0;
+                img {
+                    width: 100%;
+                    aspect-ratio: 2/1;
+                    object-fit: contain;
+                }
+                h1 {
+                    font-size: 60px;
+                    span {
+                        color: #fb6c00;
+                    }
+                }
+            }
+            .loginCard {
+                padding: 65px 55px;
+                width: 100%;
+                max-width: 550px;
+                background-color: #fff;
+                border-radius: 20px;
+                box-shadow: 0 0 15px rgba(251, 108, 0, 0.15);
+                display: grid;
+                height: fit-content;
+                h2 {
+                    font-size: 40px;
+                    color: #fb6c00;
+                    margin: 0;
+                }
+                p {
+                    color: #969494;
+                    margin: 10px 0 20px;
+                }
+                .checkInput {
+                    display: flex;
+                    align-items: center;
+                    padding: 20px 0 60px;
+                    input {
+                        margin-right: 10px;
+                        width: 20px;
+                        aspect-ratio: 1/1;
+                        accent-color: #e5731e;
+                    }
+                    label {
+                        color: #969494;
+                        text-decoration: none;
+                        font-size: 14px;
+                        span {
+                            color: #fb6c00;
+                        }
+                    }
+                }
+                a {
+                    color: #fb6c00;
+                    text-align: center;
+                    text-decoration: none;
+                    margin: 10px auto 40px;
+                }
+            }
+        }
+    }
+}

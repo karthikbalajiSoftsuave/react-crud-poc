@@ -1,0 +1,68 @@
+.btn {
+    .inventorys-selector {
+        display: flex;
+        color: #090a0c;
+        font-size: 14px;
+        margin: 0 5px;
+        text-decoration: none;
+
+        .header-btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 13px 25px;
+            gap: 10px;
+            // height: 40px;
+            border: 1px solid #E7E7E7;
+            border-radius: 10px;
+
+            .header-label {
+                // font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 150%;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FB6C00;
+
+            }
+
+        }
+
+        &.active {
+            .header-btn {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 13px 25px;
+                gap: 10px;
+                // height: 40px;
+                border: 1px solid #E7E7E7;
+                border-radius: 10px;
+                background: #FFF1E6;
+                border: 1px solid #FFF1E6;
+
+            }
+        }
+
+
+        p {
+            padding: 8px 22px;
+            color: #818181;
+            font-size: 14px;
+        }
+
+        &.active {
+            p {
+                color: #090a0c;
+                border-bottom: 2px solid #ff6522;
+                background: #FFF1E6;
+                border-radius: 10px 10px 0px 0px;
+                font-weight: bolder;
+            }
+        }
+    }
+}

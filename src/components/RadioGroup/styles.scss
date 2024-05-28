@@ -1,0 +1,27 @@
+.options-radio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    .radioButton{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        input{
+            width: 20px;
+            aspect-ratio: 1/1;
+            accent-color: #f36900;
+            margin: 0;
+            &:checked ~ p{
+                color: #FB6C00;
+            }
+        }
+        p{
+            margin: 0;
+            font-weight: 600;
+        }
+    }
+}

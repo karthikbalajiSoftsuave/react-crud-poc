@@ -1,0 +1,101 @@
+.coupon-generation-page {
+    height: 100%;
+    margin: 10px;
+
+    .coupon-generation-page-header-box {
+
+        .coupon-generation-page-header-label {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 26px;
+            // line-height: 120%;
+            margin: 30px 0 20px;
+            color: #2F2F31;
+        }
+    }
+
+    .coupon-generation-page-body-box {
+        display: flex;
+        background-color: white;
+        margin-bottom: 10px;
+        border-radius: 8px;
+
+        .coupon-generation-page-option {
+            padding: 20px;
+            // height: 140px;
+            width: 100%;
+
+            .option-label {
+                font-style: normal;
+                height: 20px;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 120%;
+                color: #2F2F31;
+                margin: 0;
+            }
+
+
+            .options-radio {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                height: auto;
+                padding-top: 33px;
+                padding-bottom: 3px;
+                .radioButton{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    input{
+                        width: 20px;
+                        aspect-ratio: 1/1;
+                        accent-color: #f36900;
+                        margin: 0;
+                        &:checked ~ p{
+                            color: #FB6C00;
+                        }
+                    }
+                    p{
+                        margin: 0;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .options-textbox {
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                // height: 100px;
+                padding-top: 10px;
+                // padding-bottom: 30px;
+                .inputWrap{
+                    padding-top: 10px !important;
+                    width: 100%;
+                }
+                .cke{
+                    width: 100%;
+                    // height:200px
+                }
+            }
+
+        }
+    }
+    .extra{
+        height: 200px;
+    }
+    // .extra2{
+    //     height: 340px;
+    // }
+}
+.coupon-generation-page{
+.primary{
+    width: fit-content;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    padding: 13px 20px;
+}}

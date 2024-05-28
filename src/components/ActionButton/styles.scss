@@ -1,0 +1,26 @@
+.primary {
+    background-color: #fb6c00;
+    color: #fff;
+    width: 100%;
+    padding: 13px;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.secondary {
+    width: 100%;
+    border: 1px solid #fb6c00;
+    border-radius: 8px;
+    outline: none;
+    max-width: 300px;
+    background-color: transparent;
+    padding: 13px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fb6c00;
+    margin: auto;
+    cursor: pointer;
+}
